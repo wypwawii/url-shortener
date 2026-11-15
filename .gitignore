@@ -1,0 +1,24 @@
+# Logs
+*.log
+# Temporary files
+*.tmp
+*~
+
+*.bak
+# Environment files (containing secrets, API keys, credentials)
+.env
+*.env
+
+# Local configuration that shouldn't be shared
+*.local
+
+### Go ###
+# go specific files
+
+*.exe
+*.test
+vendor/
+*.out
+go.work
+
+go.sum
