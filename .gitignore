@@ -20,5 +20,3 @@
 vendor/
 *.out
 go.work
-
-go.sum
