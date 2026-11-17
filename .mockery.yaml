@@ -1,0 +1,16 @@
+template: testify
+
+packages:
+    github.com/wypwawii/url-shortener/internal/httpapi/url:
+        config:
+            dir: "{{.InterfaceDir}}/mocks"
+            pkgname: "mocks"
+        interfaces:
+            URLRepository:
+                config:
+                    filename: "repository_mock.go"
+                    structname: "MockURLRepository"
+            URLService:
+                config:
+                    filename: "service_mock.go"
+                    structname: "MockURLService"
